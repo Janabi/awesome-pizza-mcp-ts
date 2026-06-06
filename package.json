@@ -1,0 +1,22 @@
+{
+  "name": "awesome-pizza-mcp-ts",
+  "version": "1.0.0",
+  "description": "Awesome Pizza MCP server (TypeScript)",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/main-stdio.ts",
+    "test:client": "tsx src/Test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.19.2",
+    "zod": "^3.25.76"
+  }
+}
